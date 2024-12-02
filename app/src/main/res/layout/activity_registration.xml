@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/regstrationTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:hint="Регистрация"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:id="@+id/linearLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/usernameSignUpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Username"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/passwordSignUpET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signUpBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="20sp"
+        android:padding="18dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/buttonText"/>
+
+    </LinearLayout>
+
+</LinearLayout>
